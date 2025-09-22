@@ -20,14 +20,19 @@ body {
   
   /* Box Styles */
   .box {
-    background: #ff6600; /* Sharp orange */
+    background: #ffffff; /* White background */
     margin: 2rem auto;
     padding: 2rem;
     max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-    color: #fff;
+    color: #001f3f; /* Dark blue text for contrast */
     text-align: center;
+  
+    /* Animation */
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease-out forwards;
   }
   
   .box h2 {
@@ -35,7 +40,7 @@ body {
   }
   
   .box a {
-    color: #fff;
+    color: #001f3f; /* Dark blue links */
     text-decoration: underline;
   }
   
@@ -46,6 +51,18 @@ body {
     background: #001a33;
     color: #fff;
     margin-top: 2rem;
+  }
+  
+  /* Keyframes for Animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   
   /* Responsive Design */
