@@ -20,13 +20,13 @@ body {
   
   /* Box Styles */
   .box {
-    background: #ffffff; /* White background */
+    background: #c5b8b8; /* White background */
     margin: 2rem auto;
     padding: 2rem;
     max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-    color: #001f3f; /* Dark blue text for contrast */
+    color: #001f3f; 
     text-align: center;
   
     /* Animation */
@@ -38,9 +38,9 @@ body {
   .box h2 {
     margin-top: 0;
   }
-  
+
   .box a {
-    color: #001f3f; /* Dark blue links */
+    color: #001f3f;
     text-decoration: underline;
   }
   
